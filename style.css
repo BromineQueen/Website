@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* try to keep css and html level in text */
+
+/* .Welcome {
+    color: darkmagenta;
+    font-size: 100px;
+} */
+
+
+/* h1 {
+    color: aquamarine;
+    font-size: 100px;
+}
+
+/* This is how we target an element. */
+
+/* h1, h2, p {
+    color: rgba(31, 254, 235, 0.916);
+    font-size: 100px;
+} */   
+
+/* combine multiple using commas */
+body{
+    text-align:center;
+}
+
+img{
+    display:flex;
+    justify-content: center;
+    width:40%;
+    text-align: center;
+}
+
+.p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 51.3px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+    color:#e3dee1;
+    background-color:#02a2a4;
+    border-style: double;
+    border-width: 5px;
+    border-color: #e3dee1
+}
+.contact{
+    font-size: 66px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+    -3px -3px 0 #e51870,
+        3px -3px 0 #02a2a4,
+        -3px 3px 0 #02a2a4,
+        3px 3px 0 #02a2a4;  
+        color:#ffffff;
+        background-color:#000000;
+        border-style: double;
+        border-width: 5px;
+        border-color: #e3dee1;
+
+}
+
+.contact1{
+    display:flex;
+    font-size: 22.8px;
+    font-family: 'Indie Flower', cursive;
+    text-shadow:
+    -1px -1px 0 #e51870,
+        1px -1px 0 #02a2a4,
+        -1px 1px 0 #02a2a4,
+        1px 1px 0 #02a2a4;    
+        color:#ffffff;
+        background-color:#000000;
+        border-style: double;
+        border-width: 5px;
+        border-color: #ffffff
+}
+
+.contact2{
+    display:flex;
+    font-size: 57.2px;
+    font-family: 'Indie Flower', cursive;
+    text-shadow:
+    -1px -1px 0 #02a2a4,
+        1px -1px 0 #e51870,
+        -1px 1px 0 #e51870,
+        1px 1px 0 #e51870;  
+        color:#000000;
+        background-color:#000000;
+        border-style: double;
+        border-width: 5px;
+        border-color: #e3dee1
+    }
+
+    .about{
+        font-size: 66px;
+        font-family: 'Permanent Marker', cursive;
+        text-shadow:
+        -3px -3px 0 #fae8ca,
+            3px -3px 0 #070707,
+            -3px 3px 0 #000000,
+            3px 3px 0 #000000;  
+            color:#846a84;
+            background-color:#f9f9f5;
+            border-style: double;
+            border-width: 8px;
+            border-color: #000000
+    }
+    
+    .about1{
+        font-size: 22.8px;
+        font-family: 'Indie Flower', cursive;
+        text-shadow:
+        -1.2px -1.2px 0 #000000,
+            1.2px -1.2px 0 #000000,
+            -1.2px 1.2px 0 #000000,
+            1.2px 1.2px 0 #000000;    
+            color:#ffffff;
+            background-color:#b9829c;
+            border-style: double;
+            border-width: 5px;
+            border-color: #ffffff
+    }
+    
+    .about2{
+        font-size: 60.5px;
+        font-family: 'Indie Flower', cursive;
+        text-shadow:
+        -1px -1px 0 #e51870,
+            1px -1px 0 #e51870,
+            -1px 1px 0 #e51870,
+            1px 1px 0 #e51870;  
+            color:#e3dee1;
+            background-color:#000000;
+            border-style: double;
+            border-width: 5px;
+            border-color: #e3dee1
+        }
+
+        .men{
+            font-size: 66px;
+            font-family: 'Permanent Marker', cursive;
+            text-shadow:
+            -3px -3px 0 #02a2a4,
+                3px -3px 0 #ffffff,
+                -3px 3px 0 #e51870,
+                3px 3px 0 #3d3a36;  
+                color:#3d3a36;
+                background-color:#ffffff;
+                border: 10px solid transparent;
+                border-image: url(Border.png) 30 stretch;
+                padding: 0%
+            }
+
+            .women{
+                font-size: 66px;
+                font-family: 'Permanent Marker', cursive;
+                text-shadow:
+                -3px -3px 0 #e8ffaa,
+                    3px -3px 0 #009747,
+                    -3px 3px 0 #009747,
+                    3px 3px 0 #e8ffaa;  
+                    color:#5a2a59;
+                    background-color:#2a5a3f;
+                    border: 12.5px solid transparent;
+                    border-image: url(Portal.png) 0.5 stretch;
+                    padding: 0%
+                }
+
+.background {
+    background-image: url(Spider.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.background1 {
+    background-image: url(Diamond.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.background2 {
+    background-image: url(Snake.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.background3 {
+    background-image: url(Heart.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.background4 {
+    background-image: url(Portal.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#navbar{
+    background-color:rgb(0, 0, 0);
+    font: size 120%;
+    display:flex;
+    justify-content:space-evenly;
+    border-style: double;
+    border-color: #e3dee1;
+}
+
+.profile{
+    display:flex;
+    margin-left: 2%;
+    margin-block: -3000%;
+    width:103%;
+    border-color: #02a2a4;
+}
+
+#navbar a {
+    background-color: rgb(255, 255, 255);
+    color:#e51870;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000;  
+    text-decoration: underline;
+    font-size: 65px;
+    border: top 8%;
+    padding: 1.9%;
+    font-family: 'Indie Flower', cursive;
+    height: 155px;
+    margin-block: -0.75%;
+    display:flex;
+    align-items: center;
+    border: 10px solid transparent;
+    border-image: url(Border.png) 40 stretch;
+    }
+
+.banner{
+    display:flex;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0px;
+    width: 36%;
+    border: top 8%;
+    padding: 1.4%;
+    margin-top: 0.8%
+    
+
+}
+
+.mphoto{
+    display:flex;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0px;
+    width: 50%;
+    border: 10px solid transparent;
+    border-image: url(Border.png) 30 stretch;
+    padding: 0%
+    }
+
+    .mphoto2{
+        display:flex;
+        float: right;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        right: 0px;
+        width: 50%;
+        border: 10px solid transparent;
+        border-image: url(Border.png) 30 stretch;
+        padding: 0%
+        }
+    
+
+.wphoto{
+    display:flex;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0px;
+    width: 50%;
+    border: 10px solid transparent;
+    border-image: url(Portal.png) 1 stretch;
+    padding: 0%
+}
+.wphoto1{
+    display:flex;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0px;
+    width: 50%;
+    border: 10px solid transparent;
+    border-image: url(Portal.png) 1 stretch;
+    padding: 0%
+}
+
+
+.banner2{
+    display:flex;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border: -100% ridge #000000;
+}
+
+
+
+#navbar a:hover{
+    color:#02a2a4;
+}
+
+*{ 
+    box-sizing: border-box;
+    padding:1%;
+}
+
+* {
+    font-family: 'Open-Sans', sans-serif;
+    color: #e3dee1;
+    scrollbar-width: thin;
+    scrollbar-color: #e51870
+}
+
+*::-webkit-scrollbar {
+    width: 2.5rem;
+}
+
+  *::-webkit-scrollbar-track {
+    background: #e3dee1;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #e51870;
+    border-radius: 0.9rem;
+    border: 0.65rem solid #02a2a4;;
+}
